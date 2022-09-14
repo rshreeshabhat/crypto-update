@@ -6,7 +6,7 @@ const CryptoHome = () => {
   return (
     <div className='wrapper-container'>
         <Trending/>
-        
+        <Markets/>
     </div>
   )
 }
