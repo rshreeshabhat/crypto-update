@@ -3,7 +3,7 @@ import { DownArrow, UpArrow } from '../icons/icons'
 import { Link } from 'react-router-dom'
 
 function currencyFormat(num) {
-    return '₹' + num.toString()
+    return '₹' + num.toFixed(4).toString()
 }
 
 function plusOrMinus(num) {
