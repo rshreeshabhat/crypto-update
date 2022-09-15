@@ -14,7 +14,7 @@ const CoinDetail = () => {
       </div>
     )
   }
-
+  console.log(response)
   return (
     <div className='my-6'>
       <div className='flex gap-2 items-center'>
