@@ -9,7 +9,7 @@
 }
 body{
    background-color: #87ceeb;
-   animation: animate 5s ease infinite;
+   animation: animate 8s ease infinite;
 }
 @keyframes animate {
     0% {
@@ -43,6 +43,6 @@ body{
 
 .font-color-change {
     color: #87ceeb;  
-    animation: f-animate 5s ease infinite;
+    animation: f-animate 8s ease infinite;
 }
 
