@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="wrapper-container  w-full">
             <div className="flex items-center gap-1 cursor-pointer">
                 <LogoIcon/>
-                <p className="font-semibold"><span className="text-cyan-400">C</span>oin<span className="text-cyan-400">D</span>ata</p>
+                <p className="font-semibold"><span className="font-color-change">C</span>oin<span className="font-color-change">D</span>ata</p>
             </div>
         </div>
     </div>
