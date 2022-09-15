@@ -48,13 +48,13 @@ const Coin = ({ coin }) => {
                     <img className="w-6" src={coin.image} alt={coin.name} />
                     <p className='font-semibold'>{coin.name}</p><small className="font-xs"> ({coin.symbol})</small>
                 </div>
-                <span className="font-medium">{currencyFormat(coin.current_price)}</span>
-                <span className="font-medium">{plusOrMinus(coin.price_change_percentage_24h)}</span>
-                <div className='hidden sm:block'>
+                <span className="font-medium items-center">{currencyFormat(coin.current_price)}</span>
+                <span className="font-medium items-center">{plusOrMinus(coin.price_change_percentage_24h)}%</span>
+                <div className='hidden sm:block items-center'>
                     <p className='font-semibold'>Price Change In 24h</p>
                     <span>{plusOrMinusInr(coin.price_change_24h)}</span>
                 </div>
-                <div className='hidden sm:block'>
+                <div className='hidden sm:block items-center'>
                     <p className='font-semibold'>Market Cap</p>
                     <span>{currencyFormat(coin.market_cap)}</span>
                 </div>
